@@ -153,6 +153,7 @@ aside{
     text-align: justify;
     background-color:rgb(179, 179, 179);
     padding: 15px;
+    
 }
 aside p{
     padding-right: 15px;
@@ -178,8 +179,16 @@ aside p{
     margin-left: 10px;
     margin-right: 10px;
     color: #3a3939;
-
+    transition: 1,5s;
 }    
+
+.redes li a:hover{
+    font-size: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #3a3939;
+} 
+
 .redes li a:visited{
     text-decoration: none; color: #000000;   
 
@@ -199,10 +208,20 @@ footer ul li{
     position: relative;
     margin-top:30px;
 }
-footer ul li img{
+.ficha{
 width: 75px;
 height: 75px;
-border-radius: 100px;
+max-width: 100%;
+display: block;
+clip-path: circle(50% at 50% 50%);
+transition: 1s;
+}
+
+.ficha:hover{
+width: 100px;
+height: 100px;
+max-width: 100%;
+display: block;
 }
 
 .imgprincipal{
@@ -210,6 +229,9 @@ float: left ;
 width: 175px;
 height: 175px;
 border-radius: 100px;
+max-width: 100%;
+display: block;
+
 }
 /*Estilo Tarejeta de presentación*/
 .presentacion{
@@ -298,13 +320,16 @@ top: 10px;
 }
 
 /*Tabla*/
+
+.table-container{
+    overflow-x: auto;
+}
 .table-n{
    width: 50%;
    border: 2px solid #000;
-   position: relative;
-   top: 20px;
    border-collapse: collapse;
    margin: auto;
+   margin-top: 15px;
 }
 .table-n td{
     border: 1px solid #000;
@@ -360,16 +385,16 @@ top: 10px;
 
 /*Colores*/
 .ares_bgc{
-    background-color: #004e23;
+    background-color: #044421;
 }
 .sonic_bgc{
-    background-color: #357a7a;
+    background-color: #2f8383;
 }
 .flop_bgc{
     background-color: #d88639;
 }
 .nala_bgc{
-    background-color: #BE2807;   
+    background-color: #a52204;   
 }
 .simon_bgc{
     background-color: #2a205f;
@@ -379,10 +404,10 @@ background-color: #3a3939;
 }
 
 .ares_bgc2{
-    background-color: #578d70;
+    background-color: #5e8a72;
 }
 .sonic_bgc2{
-    background-color: #5a8a8a;
+    background-color: #708d8d;
 }
 .flop_bgc2{
     background-color: #ddaa7b;
