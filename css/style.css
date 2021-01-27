@@ -140,13 +140,12 @@ header {
 }
 
 .docs {
-width: 100%; 
+  width: 100%;
 }
 
-.linkgit{
-    text-decoration: none;
-    color: rgb(153, 35, 143);
-
+.linkgit {
+  text-decoration: none;
+  color: rgb(153, 35, 143);
 }
 
 .art1 {
@@ -433,5 +432,4 @@ footer ul li {
 .simon_bgc2 {
   background-color: #7972a1;
 }
-.acd_bgc {
-}
+
