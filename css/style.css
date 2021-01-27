@@ -159,6 +159,7 @@ header {
 }
 
 .art3 {
+  margin-top: 40px;
   padding: 15px;
   background-color: rgb(179, 179, 179);
 }
@@ -332,7 +333,6 @@ footer ul li {
 }
 
 /*Tabla*/
-
 .table-container {
   overflow-x: auto;
 }
@@ -393,7 +393,61 @@ footer ul li {
   font-family: "Kavoon", cursive;
   font-size: 15px;
 }
+/*"Acerca de"*/
+.tagscontainer{
+    display: flex;
+    justify-content: center;     
+}
 
+.tag{
+    margin: 4px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color:  rgb(255, 255, 255);
+    font-family: "Kavoon", cursive;
+    font-size: 15px; 
+    border-radius: 15% 15% 15% 15%;
+    border: 2px solid rgb(153, 35, 143);
+}
+.tag:hover{
+    background-color: violet;
+}
+.bloque{
+    background-image: url(../images/bloque.jpg);
+    filter: sepia(35%);
+    background-size: cover;
+    background-clip: content-box;
+    font-family: "Kavoon", cursive;
+    
+    
+}
+.tagcontainer2{
+    justify-content: left;
+}    
+.linea{
+    background-image: url(../images/renglon.jpg);
+    background-size: 250%;
+    background-position-x: left;
+    font-family: "Kavoon", cursive;
+}
+
+
+.estilos{
+    background-color:  rgb(255, 255, 255);
+    font-family: "Kavoon", cursive;
+    font-size: 15px;
+    border-radius: 100px;
+    padding: 2px;
+    border: 2px solid rgb(153, 35, 143);
+}
+
+.estilos:hover{
+    background-color: violet;
+}
 /*Colores*/
 .ares_bgc {
   background-color: #044421;
