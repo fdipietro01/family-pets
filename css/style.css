@@ -1,420 +1,437 @@
-*{margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    margin-left: 10%;
-    margin-right: 10%;
-    background-color: silver;
-    overflow-x: hidden;
-    height: 1200px;   
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: silver;
+  overflow-x: hidden;
+  height: 1200px;
 }
 
-h1{
-    text-align: center;
-    font-size: 55px;
-    color: white;
-    font-family: 'Fredoka One', cursive;
-    position: relative;
-    top: 170px;
+h1 {
+  text-align: center;
+  font-size: 55px;
+  color: white;
+  font-family: "Fredoka One", cursive;
+  position: relative;
+  top: 170px;
 }
 
-.main-tittle{
-    font-size: 55px;
-    position: relative;
+.main-tittle {
+  font-size: 55px;
+  position: relative;
 }
 
-header{
-    background-image: url("https://i.pinimg.com/564x/93/c7/23/93c723c0592bd02815c9a26eda7352ed.jpg");
-    background-size: contain;
-    background-repeat: repeat-x;
-    height: 325px;
-    background-origin: border-box;    
+header {
+  background-image: url("https://i.pinimg.com/564x/93/c7/23/93c723c0592bd02815c9a26eda7352ed.jpg");
+  background-size: contain;
+  background-repeat: repeat-x;
+  height: 325px;
+  background-origin: border-box;
 }
 
-header nav {
-    top: 200px;
-    position: relative;
-}
-header nav ul{
-    text-align: center;
-    position: relative;
+.menu {
+  top: 200px;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
-header nav ul li {
-    list-style: none;
-    display: inline-block;
+.menu ul {
+  display: flex;
 }
-header nav ul li a {
+
+.menu ul li {
+  list-style: none;
+  margin-left: 3px;
+}
+
+.menu ul li a {
   padding: 10px 20px;
   display: block;
   text-decoration: none;
   color: white;
-  margin-bottom: 10px;
-  font-family: 'Kavoon', cursive;
+  font-family: "Kavoon", cursive;
 }
 /* BOTONES NAV*/
 /*Botones acerca de*/
-.b-ac{
-    background-color: rgb(255, 22, 236);
-    box-shadow: 3px 5px 0px rgb(189, 5, 173);
+.b-ac {
+  background-color: rgb(173, 14, 160);
+  box-shadow: 3px 5px 0px rgb(116, 11, 107);
 }
-.b-ac:hover{
-    background-color: rgb(189, 5, 173);
-    box-shadow: 3px 5px 0px #000000;
+.b-ac:hover {
+  background-color: rgb(189, 5, 173);
+  box-shadow: 3px 5px 0px #000000;
 }
 
 /*Botones Nala*/
-.b-na{
-    background-color: #BE2807;
-    box-shadow: 3px 5px 0px#7e1a04;
+.b-na {
+  background-color: #be2807;
+  box-shadow: 3px 5px 0px#7e1a04;
 }
-.b-na:hover{
-    background-color: #7e1a04;
-    box-shadow: 3px 5px 0px #000000;
+.b-na:hover {
+  background-color: #7e1a04;
+  box-shadow: 3px 5px 0px #000000;
 }
 
 /*Botones Simon*/
-.b-simon{
-    background-color:#2a205f;;
-    box-shadow: 3px 5px 0px #0c062c;
+.b-simon {
+  background-color: #2a205f;
+  box-shadow: 3px 5px 0px #0c062c;
 }
-.b-simon:hover{
-    background: #0c062c;
-box-shadow: 1px 3px 0px #000000
+.b-simon:hover {
+  background: #0c062c;
+  box-shadow: 1px 3px 0px #000000;
 }
 
 /*Botones Ares*/
-.b-ares{
-    background-color: #004e23;
-    box-shadow: 3px 5px 0px #002b0b;
+.b-ares {
+  background-color: #004e23;
+  box-shadow: 3px 5px 0px #002b0b;
 }
-.b-ares:hover{
-    background:#002b0b;
-box-shadow: 1px 3px 0px #000000
+.b-ares:hover {
+  background: #002b0b;
+  box-shadow: 1px 3px 0px #000000;
 }
 
 /*Botones Flop*/
-.b-fl{
-    background-color: #d88639;
-    box-shadow: 3px 5px 0px #c56f1e;
+.b-fl {
+  background-color: #d88639;
+  box-shadow: 3px 5px 0px #c56f1e;
 }
-.b-fl:hover{
-    background:#c56f1e;
-box-shadow: 1px 3px 0px #000000
+.b-fl:hover {
+  background: #c56f1e;
+  box-shadow: 1px 3px 0px #000000;
 }
 
 /*Botones Sonic*/
-.b-so{
-    background-color:  #357a7a;
-    box-shadow: 3px 5px 0px  #205353;
+.b-so {
+  background-color: #357a7a;
+  box-shadow: 3px 5px 0px #205353;
 }
-.b-so:hover{
-    background:#205353;
-box-shadow: 1px 3px 0px #000000
+.b-so:hover {
+  background: #205353;
+  box-shadow: 1px 3px 0px #000000;
 }
 
 /*Botones Home*/
-.b-hm{
-    background-color: black;
-    box-shadow: 3px 5px 0px #15161627;
+.b-hm {
+  background-color: black;
+  box-shadow: 3px 5px 0px #15161627;
 }
-.b-hm:hover{
-    background:  #15161627;
-box-shadow: 1px 3px 0px #000000
+.b-hm:hover {
+  background: #15161627;
+  box-shadow: 1px 3px 0px #000000;
 }
 
+/*Secciones*/
 .introduccion {
-    font-size: 20px;
-    float: left;
-    width: 65%;
-    text-align: justify;
+  font-size: 20px;
+  float: left;
+  width: 65%;
+  text-align: justify;
 }
-.introduccion p{
-    margin: 15px;
-    line-height: 150%;
-}
-
-.art1{
-    padding: 15px;
-    background-color: rgb(179, 179, 179);
-    margin-bottom: 40px;
-}
-.art2{
-    padding: 15px;
-    background-color: rgb(179, 179, 179);
-    
+.introduccion p {
+  margin: 15px;
+  line-height: 150%;
 }
 
-aside{
-    width: 28%;
-    font-size: 20px;
-    float:right;
-    text-align: justify;
-    background-color:rgb(179, 179, 179);
-    padding: 15px;
-    
-}
-aside p{
-    padding-right: 15px;
-    padding-left: 15px;
-    line-height: 150%;
+.docs {
+width: 100%; 
 }
 
-.amistades-n{
-    position: relative;
-    bottom: 100px;
+.linkgit{
+    text-decoration: none;
+    color: rgb(153, 35, 143);
+
 }
 
+.art1 {
+  padding: 15px;
+  background-color: rgb(179, 179, 179);
+  margin-bottom: 40px;
+}
+.art2 {
+  padding: 15px;
+  background-color: rgb(179, 179, 179);
+}
+
+.art3 {
+  padding: 15px;
+  background-color: rgb(179, 179, 179);
+}
+
+aside {
+  width: 28%;
+  font-size: 20px;
+  float: right;
+  text-align: justify;
+  background-color: rgb(179, 179, 179);
+  padding: 15px;
+}
+aside p {
+  padding-right: 15px;
+  padding-left: 15px;
+  line-height: 150%;
+}
+
+.amistades-n {
+  position: relative;
+  bottom: 100px;
+}
+/*Links a redes*/
 .redes {
-    float: right;
-    position: relative;
-    margin-top: 1px;
-    display: inline;
+  float: right;
+  position: relative;
+  margin-top: 1px;
+  display: inline;
 }
 
+.redes li a {
+  font-size: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #3a3939;
+  transition: 1, 5s;
+}
 
-.redes li a{
-    font-size: 40px;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: #3a3939;
-    transition: 1,5s;
-}    
+.redes li a:hover {
+  font-size: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #3a3939;
+}
 
-.redes li a:hover{
-    font-size: 60px;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: #3a3939;
-} 
-
-.redes li a:visited{
-    text-decoration: none; color: #000000;   
-
+.redes li a:visited {
+  text-decoration: none;
+  color: #000000;
 }
 footer p {
-    border-radius: 100px;
-    top: 25px;
-    background-color: black;
-    width: 100%;
-    color: white;
-    text-align: right;
+  border-radius: 100px;
+  top: 25px;
+  background-color: black;
+  width: 100%;
+  color: white;
+  text-align: right;
 }
 
-footer ul li{
-    list-style: none;
-    display: inline-block;
-    position: relative;
-    margin-top:30px;
+footer ul li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  margin-top: 30px;
 }
-.ficha{
-width: 75px;
-height: 75px;
-max-width: 100%;
-display: block;
-clip-path: circle(50% at 50% 50%);
-transition: 1s;
-}
-
-.ficha:hover{
-width: 100px;
-height: 100px;
-max-width: 100%;
-display: block;
+.ficha {
+  width: 75px;
+  height: 75px;
+  max-width: 100%;
+  display: block;
+  clip-path: circle(50% at 50% 50%);
+  transition: 1s;
 }
 
-.imgprincipal{
-float: left ;
-width: 175px;
-height: 175px;
-border-radius: 100px;
-max-width: 100%;
-display: block;
+.ficha:hover {
+  width: 100px;
+  height: 100px;
+  max-width: 100%;
+  display: block;
+}
 
+.imgprincipal {
+  float: left;
+  width: 175px;
+  height: 175px;
+  border-radius: 100px;
+  max-width: 100%;
+  display: block;
 }
 /*Estilo Tarejeta de presentación*/
-.presentacion{
-    margin-top: 20px;
-    height: 175px;
-    border-radius: 100px;
-    margin-bottom: 50px;
+.presentacion {
+  margin-top: 20px;
+  height: 175px;
+  border-radius: 100px;
+  margin-bottom: 50px;
 }
 .descripcion {
-    position: relative;
-    left: 20px;
-    top: 20px;
-    color:white;    
+  position: relative;
+  left: 20px;
+  top: 20px;
+  color: white;
 }
 
-.descripcion p{
-    font-size: 28px;
-    margin: 10px;
-    margin-top:0;
-    font-family: 'Kavoon', cursive;
-    font-weight: none;   
+.descripcion p {
+  font-size: 28px;
+  margin: 10px;
+  margin-top: 0;
+  font-family: "Kavoon", cursive;
+  font-weight: none;
 }
 
-.tittlename{
-    font-size: 45px;
-    font-family: 'Fredoka One', cursive;
+.tittlename {
+  font-size: 45px;
+  font-family: "Fredoka One", cursive;
 }
 
-
-.historia{
-    font-size: 20px;
-    float: left;
-    width: 65%;
-    text-align: justify;
-    background-color: rgb(179, 179, 179);
-    padding: 15px;
-    
+.historia {
+  font-size: 20px;
+  float: left;
+  width: 65%;
+  text-align: justify;
+  background-color: rgb(179, 179, 179);
+  padding: 15px;
 }
 
-.historia p{
-    padding: 10px 25px; 
-    line-height: 150%;
+.historia p {
+  padding: 10px 25px;
+  line-height: 150%;
 }
 
-.footer-n{
-    position: relative;
-    height: 200px;
-    width: 100%;
-    margin: 0px;
+.footer-n {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  margin: 0px;
 }
-.footer-n div{
-    position: relative;
-    left: 1350px;
-    top: 10px;
-    }
-
-.footer-h{
-    width: 100%;
-}
-.footer-h div{
-position: relative;
-left: 1350px;
-top: 10px;
+.footer-n div {
+  position: relative;
+  left: 1350px;
+  top: 10px;
 }
 
-.main-home{
-    height: 700px;
-    display: block;
-    margin-bottom: 20px;
-    margin-top: 0;
-    border-top: 0;
+.footer-h {
+  width: 100%;
+}
+.footer-h div {
+  position: relative;
+  left: 1350px;
+  top: 10px;
 }
 
-.main-n{
+.main-home {
+  height: 700px;
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 0;
+  border-top: 0;
+}
+
+.main-n {
   height: 700px;
   margin-bottom: 90px;
 }
 /*Contenedor Tabla*/
-.amistades-n{
-    display: inline-block;
-    width: 65%;
-    margin-top: 80;
-    background-color: rgb(179, 179, 179);
-    padding: 15px;
-    height: 200px;
+.amistades-n {
+  display: inline-block;
+  width: 65%;
+  margin-top: 80;
+  background-color: rgb(179, 179, 179);
+  padding: 15px;
+  height: 200px;
 }
 
 /*Tabla*/
 
-.table-container{
-    overflow-x: auto;
+.table-container {
+  overflow-x: auto;
 }
-.table-n{
-   width: 50%;
-   border: 2px solid #000;
-   border-collapse: collapse;
-   margin: auto;
-   margin-top: 15px;
+.table-n {
+  width: 50%;
+  border: 2px solid #000;
+  border-collapse: collapse;
+  margin: auto;
+  margin-top: 15px;
 }
-.table-n td{
-    border: 1px solid #000;
-    width: 90px;  
-    text-align: center;
-    color: green; 
-    font-size: 20px;
+.table-n td {
+  border: 1px solid #000;
+  width: 90px;
+  text-align: center;
+  color: green;
+  font-size: 20px;
 }
-.table-n th{
-    border: 2px solid #000;
-    padding: 4px 20px;
-    font-family: 'Kavoon', cursive;
-    font-size: 14px;
-    font-weight: 100;
-}
-    
-/*Estilo Titulos*/
-.tittle{
-    margin-bottom: 3px;
-    height: 30px;
-    background-color: #3a3939;
-    padding: 5px;
-    color: white;
-    text-align: center;
-    margin: 5px;
-    margin-bottom: 10px;
-    font-family: 'Kavoon', cursive;
-    font-weight: 500;
+.table-n th {
+  border: 2px solid #000;
+  padding: 4px 20px;
+  font-family: "Kavoon", cursive;
+  font-size: 14px;
+  font-weight: 100;
 }
 
+/*Estilo Titulos*/
+.tittle {
+  margin-bottom: 3px;
+  height: 30px;
+  background-color: #3a3939;
+  padding: 5px;
+  color: white;
+  text-align: center;
+  margin: 5px;
+  margin-bottom: 10px;
+  font-family: "Kavoon", cursive;
+  font-weight: 500;
+}
 
 /*Aside-datos*/
-.listadatos{
-    padding: 10px;
+.listadatos {
+  padding: 10px;
 }
 
 .listadatos li {
-    list-style: none;
+  list-style: none;
 }
 
-.listadatos li span{
-    width: 100%;
-    display: block;
-    border-radius: 100px;
-    padding: 3px;
-    margin-bottom: 2px;
+.listadatos li span {
+  width: 100%;
+  display: block;
+  border-radius: 100px;
+  padding: 3px;
+  margin-bottom: 2px;
 }
 
-.clase{
-    font-family: 'Kavoon', cursive;
-    font-size: 15px;
+.clase {
+  font-family: "Kavoon", cursive;
+  font-size: 15px;
 }
 
 /*Colores*/
-.ares_bgc{
-    background-color: #044421;
+.ares_bgc {
+  background-color: #044421;
 }
-.sonic_bgc{
-    background-color: #2f8383;
+.sonic_bgc {
+  background-color: #2f8383;
 }
-.flop_bgc{
-    background-color: #d88639;
+.flop_bgc {
+  background-color: #d88639;
 }
-.nala_bgc{
-    background-color: #a52204;   
+.nala_bgc {
+  background-color: #a52204;
 }
-.simon_bgc{
-    background-color: #2a205f;
+.simon_bgc {
+  background-color: #2a205f;
 }
-.home_bgc{
-background-color: #3a3939;
+.home_bgc {
+  background-color: #3a3939;
+}
+.acd_bgc {
+  background-color: rgb(153, 35, 143);
 }
 
-.ares_bgc2{
-    background-color: #5e8a72;
+.ares_bgc2 {
+  background-color: #5e8a72;
 }
-.sonic_bgc2{
-    background-color: #708d8d;
+.sonic_bgc2 {
+  background-color: #708d8d;
 }
-.flop_bgc2{
-    background-color: #ddaa7b;
+.flop_bgc2 {
+  background-color: #ddaa7b;
 }
-.nala_bgc2{
-    background-color: #cc7c6a;  
+.nala_bgc2 {
+  background-color: #cc7c6a;
 }
-.simon_bgc2{
-    background-color: #7972a1;
+.simon_bgc2 {
+  background-color: #7972a1;
+}
+.acd_bgc {
 }
