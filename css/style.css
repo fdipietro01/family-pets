@@ -141,6 +141,7 @@ header {
 
 .docs {
   width: 100%;
+  margin-bottom: 40px;
 }
 
 .linkgit {
@@ -162,6 +163,7 @@ header {
   margin-top: 40px;
   padding: 15px;
   background-color: rgb(179, 179, 179);
+  margin-bottom: 40px;
 }
 
 aside {
@@ -211,7 +213,7 @@ aside p {
 }
 footer p {
   border-radius: 100px;
-  top: 25px;
+  
   background-color: black;
   width: 100%;
   color: white;
@@ -223,6 +225,10 @@ footer ul li {
   display: inline-block;
   position: relative;
   margin-top: 30px;
+}
+
+.footer-acd{
+margin-top: 150px;
 }
 .ficha {
   width: 75px;
@@ -436,15 +442,18 @@ footer ul li {
 }
 
 .estilos-contanier{
-
+display: flex;
+align-content: flex-start;
+flex-wrap: wrap;
 }
 .estilos{
     background-color:  rgb(255, 255, 255);
     font-family: "Kavoon", cursive;
     font-size: 15px;
     border-radius: 100px;
-    padding: 2px;
-    border: 2px solid rgb(153, 35, 143);
+    margin-top: 2px;
+    padding: 1px 14px;
+    border: 1px solid rgb(153, 35, 143);
 }
 
 .estilos:hover{
