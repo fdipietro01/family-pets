@@ -42,11 +42,13 @@ header {
 
 .menu ul {
   display: flex;
+  justify-content: space-between;
+  width: 53%;
 }
 
 .menu ul li {
   list-style: none;
-  margin-left: 3px;
+ 
 }
 
 .menu ul li a {
