@@ -8,7 +8,7 @@ body {
   margin-right: 10%;
   background-color: silver;
   overflow-x: hidden;
-  height: 1200px;
+  height: 1400px;
 }
 
 h1 {
@@ -42,12 +42,13 @@ header {
 
 .menu ul {
   display: flex;
-  justify-content: space-between;
-  width: 53%;
+  justify-content: center;
+  width: 100%;
 }
 
 .menu ul li {
   list-style: none;
+  padding: 0px 5px;
  
 }
 
@@ -165,7 +166,6 @@ header {
   margin-top: 40px;
   padding: 15px;
   background-color: rgb(179, 179, 179);
-  margin-bottom: 40px;
 }
 
 aside {
@@ -182,10 +182,7 @@ aside p {
   line-height: 150%;
 }
 
-.amistades-n {
-  position: relative;
-  bottom: 100px;
-}
+
 /*Links a redes*/
 .redes {
   float: right;
@@ -213,13 +210,23 @@ aside p {
   text-decoration: none;
   color: #000000;
 }
-footer p {
+
+.footer-n {
+  position: relative;
+  width: 100%;
+  padding-top: 0px;
+  height: 15%;
+}
+.footer-n p {
   border-radius: 100px;
-  
   background-color: black;
   width: 100%;
+  max-width: 100%;
   color: white;
-  text-align: right;
+  justify-content: flex-end;
+  padding-right: 10px;
+  height: 20px;
+  display: flex;
 }
 
 footer ul li {
@@ -229,9 +236,7 @@ footer ul li {
   margin-top: 30px;
 }
 
-.footer-acd{
-margin-top: 150px;
-}
+
 .ficha {
   width: 75px;
   height: 75px;
@@ -290,32 +295,12 @@ margin-top: 150px;
   text-align: justify;
   background-color: rgb(179, 179, 179);
   padding: 15px;
+  margin-bottom: 40px;
 }
 
 .historia p {
   padding: 10px 25px;
   line-height: 150%;
-}
-
-.footer-n {
-  position: relative;
-  height: 200px;
-  width: 100%;
-  margin: 0px;
-}
-.footer-n div {
-  position: relative;
-  left: 1350px;
-  top: 10px;
-}
-
-.footer-h {
-  width: 100%;
-}
-.footer-h div {
-  position: relative;
-  left: 1350px;
-  top: 10px;
 }
 
 .main-home {
@@ -326,15 +311,16 @@ margin-top: 150px;
   border-top: 0;
 }
 
-.main-n {
-  height: 700px;
-  margin-bottom: 90px;
+.main-acd{
+  height: 60%;
 }
+
+
 /*Contenedor Tabla*/
 .amistades-n {
   display: inline-block;
   width: 65%;
-  margin-top: 80;
+  margin-bottom: 40px;
   background-color: rgb(179, 179, 179);
   padding: 15px;
   height: 200px;
@@ -371,16 +357,22 @@ margin-top: 150px;
   margin-bottom: 3px;
   height: 30px;
   background-color: #3a3939;
-  padding: 5px;
+  padding: 5px 0px;
   color: white;
   text-align: center;
-  margin: 5px;
+  margin: 5px 3px;
   margin-bottom: 10px;
   font-family: "Kavoon", cursive;
   font-weight: 500;
+  max-width: 100%;
 }
 
 /*Aside-datos*/
+.aside-tittle{
+font-size: 28px;
+
+}
+
 .listadatos {
   padding: 10px;
 }
